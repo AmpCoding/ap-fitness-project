@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+}
+
+.table {
+  border-bottom: solid;
+    border-top: solid;
+    padding: 2px;
+    font-size: 40px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+  background-color: black;
+}
+
+a:hover {
+  color: blue;
+}
+
+h1 {
+  font-family: "Jazz LET", fantasy;
+  font-size: 80px;
+  font-weight: 900;
+  text-align: center;
+  color: black;
+}
+
+.columns {
+  float: left;
+  width: 33.3%;
+  padding: 8px;
+}
+
+.price {
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 0;
+}
+
+.price:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2);
+}
+
+.price .header {
+  background-color: #111;
+  color: white;
+  font-size: 25px;
+}
+
+.price li {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  text-align: center;
+}
+
+.price .grey {
+  background-color: #eee;
+  font-size: 20px;
+}
+
+.button {
+  background-color: #296EB4;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+legend {
+  text-align: start;
+  border: 1px solid black;
+  padding: 5px 10px 5px 10px;
+}
+
+fieldset {
+  text-align: center;
+  margin: 75px 200px 75px 200px;
+}
+
+input[type="text"], input[type="email"], select {
+  width: 50%;
+  padding: 2px;
+  margin: auto;
+  display: block;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+textarea {
+  width: 50%;
+  padding: 10px;
+  margin: auto;
+  display: block;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+p {
+  text-align: center;
+  font-size: 13px
+}
+
+input[type="radio"] {
+  float: left;
+  clear: none;
+  margin: 2px 0 0 2px;
+}
+
+label[for="firstName"] {
+  display: block;
+  text-align: center;
+}
+
+label[for="lastName"] {
+  display: block;
+  text-align: center;
+}
+
+label[for="email"] {
+  display: block;
+  text-align: center;
+}
+
+label[for="phone"] {
+  display: block;
+  text-align: center;
+}
+
+select {
+  display: block;
+  text-align: center;
+}
+
+label[for="date"] {
+  display: block;
+  text-align: center;
+}
+
+label[for="allergies"] {
+  display: block;
+  text-align: center;
+}
+
+label[for="signup"] {
+  text-transform: lowercase;
+  text-align: center;
+}
+
+label[for="terms"] {
+  text-transform: lowercase;
+  text-align: center;
+}
+body {
+  background-color: #FAF9F6;
+}

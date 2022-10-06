@@ -1,0 +1,45 @@
+.table {
+  border-bottom: solid;
+  border-top: solid;
+  padding: 2px;
+  font-size: 40px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  }
+
+a:hover {
+  color: blue;
+}
+
+h1 {
+  font-family: "Jazz LET", fantasy;
+  font-size: 80px;
+  font-weight: 900;
+  text-align: center;
+  color: #FF7F11;
+}
+
+.img-1 {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+h2 {
+  font-family: "OCR A Std", monospace;
+  color: #FF7F11;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+p {
+  font-weight: bold;
+  font-family: "Bookman, URW Bookman L", serif;
+  font-size: 20px;
+}
+
+body {
+  background-image: conic-gradient(orange, blue, black);
+}

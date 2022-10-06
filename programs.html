@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./programs.css" rel="stylesheet">
+    <title>Programs</title>
+</head>
+<body>
+    <nav class="table">
+        <a href="./home.html" style="text-decoration:none">Home</a>
+        <a href="./workout-videos.html" style="text-decoration:none">Workout Videos</a>
+        <a href="./results.html" style="text-decoration:none">Results</a>
+        <a href="./programs.html" style="text-decoration:none">Programs</a>
+    </nav>
+
+    <header>
+        <h1>Programs and Pricing</h1>
+    </header>
+
+    <main>
+        <section class="columns">
+            <ul class="price">
+                <li class="header" style="background-color: #FF7F11">30 Day Program</li>
+                <li class="grey">$100.00</li>
+                <li>Initial Assesment</li>
+                <li>Meal Guide</li>
+                <li>Fitness Regimen</li>
+                <li>Weekly Tracking</li>
+                <li class="grey"><a href="#" class="button">Purchase</a></li>
+            </ul>
+        </section>
+
+        <section class="columns">
+            <ul class="price">
+                <li class="header" style="background-color: #296EB4">60 Day Program</li>
+                <li class="grey">$175.00</li>
+                <li>Initial Assesment</li>
+                <li>Meal Guide</li>
+                <li>Fitness Regimen</li>
+                <li>Weekly Tracking</li>
+                <li class="grey"><a href="#" class="button">Purchase</a></li>
+            </ul>
+        </section>
+
+        <section class="columns">
+            <ul class="price">
+                <li class="header" style="background-color:#FF7F11">90 Day Program</li>
+                <li class="grey">$250.00</li>
+                <li>Initial Assesment</li>
+                <li>Meal Guide</li>
+                <li>Fitness Regimen</li>
+                <li>Weekly Tracking</li>
+                <li class="grey"><a href="#" class="button">Purchase</a></li>
+            </ul>
+        </section>
+
+        <form method="post">
+            <fieldset>
+                <legend>Join Now</legend>
+
+                <p>
+                    <label for="firstName">First name</label>
+                    <input type="text" id="firstName" name="first_name" placeholder="Enter your first name here">
+                </p>
+
+                <p>
+                    <label for="lastName">Last name</label>
+                    <input type="text" id="lastName" name="last_name" placeholder="Enter your last name here">
+                </p>
+
+                <p>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="example@example.com">
+                </p>
+
+                <p>
+                    <label for="phone">Phone Number</label>
+                    <input type="number" id="phone" name="phone" placeholder="Enter phone number">
+                </p>
+
+                <label for="meal-guide">Meal Guide</label>
+                <select id="selection" name="client_selection">
+                    <option>--Please Choose Meal Plan--</option>
+                    <option value="core">Core Plan</option>
+                    <option value="vegetarian">Vegetarian</option>
+                    <option value="pescatarian">Pescatarian</option>
+                    <option value="vegan">Vegan</option>
+                </select>
+
+                <p>Best way to contact:
+                    <button type="radio">Phone</button>
+                    <button type="radio">Email</button>
+                </p>
+
+                <p>
+                    <label for="allergies">Food Allergies</label>
+                    <textarea id="allergies" name="allergies" placeholder="List all food allergies here"></textarea>
+                </p>
+
+                <p>
+                    <label for="date">Current Date</label>
+                    <input type="date" id="current-date" name="current_date">
+                </p>
+
+                <p>
+                    <label for="newsletter">Sign up for newsletter</label>
+                    <input type="checkbox" id="newsletter" name="newsletter">
+                </p>
+
+                <p>
+                    <label for="terms-and-conditions">Agree to terms and conditions</label>
+                    <input type="checkbox" id="terms-and-conditions" name="terms_and_conditions">
+                </p>
+
+                <p>
+                    <button type="submit">Submit</button>
+                </p>
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>
